@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "name": "setup",
+  "version": "1.0.0",
+  "description": "Easy setup for html/css, js project",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "setup"
+  ],
+  "author": "George (Yurii)",
+  "license": "ISC"
+}
