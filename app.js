@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.writeFileSync('index.html', 
+fs.writeFileSync('../index.html', 
 `<!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +16,7 @@ fs.writeFileSync('index.html',
 </html>
 `);
 
-fs.writeFileSync('style.css', 
+fs.writeFileSync('../style.css', 
 `* {
   padding: 0; margin: 0;
   box-sizing: border-box;
@@ -25,4 +25,4 @@ fs.writeFileSync('style.css',
 }
 `)
 
-fs.writeFileSync('main.js', '');
+fs.writeFileSync('../main.js', '');
